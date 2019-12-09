@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Alan Haug</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+        <link href="styles.css" rel="stylesheet">
+        <script type="text/javascript" src="logic.js"></script>
+    </head>
+    <body>
+        <div id="errContainer">
+            <noscript>
+                <div class="systemErrMsg" style="display: block;">
+                    <h1>Please enable Javascript to experience this site correctly. Thanks!<br />Here's my <a href="assets/resume.pdf">Resume</a>.</h1>
+                </div>
+            </noscript>
+            <div class="systemErrMsg" id="badBrowserMsg">
+                <h1>Please visit this site with a modern browser like <a href="https://www.mozilla.org/en-US/firefox/new/">Firefox</a>, <a href="https://www.google.com/chrome/">Chrome</a>, or <a href="https://www.microsoft.com/en-us/windows/microsoft-edge">Edge</a> for full support. Thanks!<br />Here's my <a href="assets/resume.pdf">Resume</a>.</h1>
+            </div>    
+        </div>
+        <div class="sideNavContainer">
+            <nav class="navBar sideNav">
+                <div class="fixedHeader">
+                        <a href="#" data-section-id="section-about">Alan Haug</a>
+                        <label for="navExpandToggle" class="expandToggle"><input type="checkbox" id="navExpandToggle" /><span class="toggleIcon"></span></label>
+                </div>
+                <div class="navBarItems">
+                    <ul>
+                        <li><a href="#section-about" data-section-id="section-about">About</a></li>
+                        <li><a href="#section-publishedGames" data-section-id="section-publishedGames">Published Games</a></li>
+                        <li><a href="#section-personalProjects" data-section-id="section-personalProjects">Personal Projects</a></li>
+                        <li><a href="#section-interests" data-section-id="section-interests">Interests</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="mainContent">
+                <section id="section-about" class="navSection">
+                    <div class="sectionContent">
+                        <h1>Alan Haug</h1>
+                        <h2>Santa Cruz, CA</h2>
+                        <div class="contactInfo">
+                                <a href="mailto:ajhhja@gmail.com">Email</a> | <a href="assets/resume.pdf">Resume</a> | <a href="https://www.linkedin.com/pub/alan-haug/58/460/216">LinkedIn</a>
+                        </div>
+                        <p>
+                            I like to make things. My favorite things to make are video games, and music. I strive to create games that offer a rich and engaging experience with strong musical aspects. Games can also be developed as a powerful learning tool, which I believe still has much untapped potential. Sometimes games are just fun and that is all they need to be. I graduated from the University of California, Santa Cruz in 2012 with a B.S. in Computer Science: Game Design. My current location is just outside of Santa Cruz, California. Take a look around to see some of the things I have worked on in the past and present. I am always interested to hear about exciting opportunities that push video games to new horizons so please feel free to check out my resume (which includes my work history) and contact me.
+                        </p>
+                    </div>
+                </section>
+                <section id="section-publishedGames" class="navSection">
+                    <div class="sectionContent">
+                        <h1>Published Games</h1>
+                        <p>
+                            These are games that I have worked on (in part or in whole) and have been released publicly.
+                        </p>
+                        <ul class="projectList">
+                            <li><a href="#" data-project-name="legends">The Elder Scrolls®: Legends™</a> (2017 - 2019)</li>
+                            <li><a href="#" data-project-name="dropzone">Dropzone</a> (2015 - 2019)</li>
+                            <li><a href="#" data-project-name="kitten-rescue">Kitten Rescue</a> (2014 - 2015)</li>
+                            <li><a href="#" data-project-name="fbgb">Flappy Bird for Game Boy</a> (2014)</li>
+                        </ul>
+                    </div>
+                </section>
+                <section id="section-personalProjects" class="navSection">
+                    <div class="sectionContent">
+                        <h1>Personal Projects</h1>
+                        <p>
+                            This is a list of software projects I worked on either to try out some game idea prototype or flesh out a thought experiment in my head. The older ones in the list date back to my college days and school work.
+                        </p>
+                        <ul class="projectList">
+                            <li><a href="#" data-project-name="tickle-ninja">Ludum Dare 32: Tickle Ninja</a> (2015)</li>
+                            <li><a href="#" data-project-name="song-of-the-planets">Song of the Planets</a> (2014, 2015)</li>
+                            <li><a href="#" data-project-name="fussball">Fussball</a> (2014)</li>
+                            <li><a href="#" data-project-name="musical-terrain">Musical Terrain</a> (2014)</li>
+                            <li><a href="#" data-project-name="forest-quest">Forest Quest</a> (2013 - 2014)</li>
+                            <li><a href="#" data-project-name="hello-world">Senior Project: Hello World</a> (2011 - 2012)</li>
+                            <li><a href="#" data-project-name="daedalus">Daedalus</a> (2012)</li>
+                            <li><a href="#" data-project-name="xylofun">Xylofun</a> (2012)</li>
+                            <li><a href="#" data-project-name="mini-golf">Psychedelic Mini Golf</a> (2011)</li>
+                            <li><a href="#" data-project-name="block-hop">Block Hop!</a> (2008)</li>
+                        </ul>
+                    </div>
+                </section>
+                <section id="section-interests" class="navSection">
+                    <div class="sectionContent">
+                        <h1>Interests</h1>
+                        <p>
+                            I love to create. I've found new potential for making interesting things over the years with my growing software skills, which usually leads me to pick up new technologies in a goal-oriented approach. Sometimes I get too caught up geeking out while looking into work with new tech like frameworks, game engines, languages, limited hardware, etc. and I never get to the actual making part... so I guess I really like learning new things as well.
+                        </p>
+                        <p>
+                            When I'm not learning new software skills, I might be learning new instruments or songs to play. I currently have experience with: piano (and many other keyed instruments like the accordion, melodica and synthesizers), guitar, banjo, mandolin and bass. I have a cello that I still want to get the hang of playing as well as brush up on my drum programming skills.
+                        </p>
+                        <p>
+                            Nature is a huge inspiration for me, so I do enjoy time outdoors going on hikes or staring at the ocean. Other people's creations also inspire me, especially when I get the feeling that the process behind the creation seems interesting, like procedurally generated music, or cross-discipline multi-media projects.
+                        </p>
+                        <p>
+                            I also enjoy making birthday cards for friends and family with pens and colored pencils.
+                        </p>
+                        <p>
+                            I just want to want awesome things that help improve folks' lives.
+                        </p>
+                    </div>
+                </section>
+            </div>
+            <div>Icons made by <a href="https://www.flaticon.com/authors/dave-gandy" title="Dave Gandy">Dave Gandy</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+        </div>
+        <div class="infoModal">
+            <div id="modalBackground"></div>
+            <div id="modalWindow">
+                <div id="modalHeader">
+                    <div id="closeBtn"></div>
+                    <h2 id="titleText">Title</h2>
+                </div>
+                <div id="modalBody">
+                    <div id="embedVideoContainer"></div>
+                    <div id="externalLinkContainer"><a id="externalLinkText" href="#">EXTERNAL LINK</a></div>
+                    <p id="descriptionText">Description text... Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quam magna, euismod ac auctor sit amet, vulputate eu sem. Fusce semper nec arcu eu tristique. Nunc pulvinar mi ac lorem laoreet, et elementum sem tristique. Quisque sit amet luctus mauris. Nullam euismod in sapien eleifend malesuada. Nulla rhoncus ac nibh sed dignissim. Etiam interdum, nulla vitae congue auctor, enim orci hendrerit velit, eu varius est lectus non arcu. Nullam scelerisque ornare quam quis lobortis. Fusce tempor eros eget diam maximus, in blandit ante viverra. Donec viverra magna sapien, ac fermentum lectus vulputate ac. Etiam eget molestie nisi. Praesent leo lectus, vehicula vitae auctor id, efficitur ut nibh. Cras sit amet nisi at mi venenatis molestie quis ut neque. Donec suscipit et augue volutpat porta. Morbi pharetra urna in volutpat porta. In ultricies quam ut tortor pulvinar laoreet. </p>
+                    <div id="roleContainer">
+                        <h3>Role(s):</h3>
+                        <p id="roleText">Some role</p>
+                    </div>
+                    <div id="toolsContainer">
+                        <h3>Tools:</h3>
+                        <ul id="toolsList">
+                            <li>tool 1</li>
+                            <li>tool 2</li>
+                            <li>tool 2</li>
+                        </ul>
+                    </div>
+                    <div id="tasksContainer">
+                        <h3>Tasks:</h3>
+                        <ul id="tasksList">
+                            <li>task 1</li>
+                            <li>task 2</li>
+                            <li>task 3</li>
+                            <li>task 4</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script type="text/javascript">
+            (
+                function () {
+                    try {
+                        var testCode = new Function('let arrowFunction = (someArg) => { const val = 3; };');
+                        testCode();
+                        if (!window.addEventListener || !window.requestAnimationFrame || !window.fetch || !window.scrollTo ||
+                            !Array.from || !document.querySelector) {
+                            throw 'error';
+                        }
+                    }
+                    catch(e) {
+                        var errElem = document.getElementById('badBrowserMsg');
+                        errElem.style.display = 'block';
+                        errElem.addEventListener('click', function(clickEvent) {
+                            errElem.style.display = 'none';
+                        });
+                    }
+                }
+            )();
+        </script>
+    </body>
+</html>

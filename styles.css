@@ -1,0 +1,447 @@
+/**************************************************************************************************
+    Native element style overrides
+**************************************************************************************************/
+body {
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #E0F8D0;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: .25em 0;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin: .15em 0;
+}
+
+h3 {
+    font-size: 1.25em;
+    margin: .1em 0;
+}
+
+h1, h2, h3, p, div, span, body {
+    color: #081820;
+}
+
+/**************************************************************************************************
+    Custom styles
+**************************************************************************************************/
+#errContainer {
+    position: absolute;
+    z-index: 10000;
+    width: 100%
+}
+
+.systemErrMsg {
+    display: none;
+    position: relative;
+    width: 80%;
+    background-color: white;
+    border: .25em solid darkred;
+    box-sizing: border-box;
+    top: 0;
+    left: 50%;
+    margin: 1em 0 0 -40%;
+    padding: .25em;
+    text-align: center;
+}
+
+.systemErrMsg h1 {
+    color: darkred;
+}
+
+.navBar {
+    width: 100vw;
+    background-color: #88C070;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+}
+
+.navBar ul {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navBar li {
+    margin: 0 2vw;
+    width: 100%;
+    text-align: center;
+}
+
+.navBar a {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    text-decoration: none;
+    color: #081820;
+    text-transform: uppercase;
+    padding: .4em;
+    transition: color .4s;
+    transition: background-color .4s;
+}
+
+.navBar :not(.fixedHeader) a:hover{
+    background-color:  #346856;
+    color: #E0F8D0;
+    text-decoration: none;
+}
+
+.navBar .fixedHeader a:hover{
+    color: #081820;
+    text-decoration: none;
+}
+
+.navBar :not(.fixedHeader) .activeNavItem {
+    background-color:  #346856;
+    color: #E0F8D0;
+}
+
+.mainContent{
+    width: 100%;
+    text-align: left;
+    max-width: 80rem;
+}
+
+.navSection {
+    padding: 3rem;
+    min-height: 100vh;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.navSection .sectionContent {
+    width: 100%;
+}
+
+.navSection .sectionContent h1 {
+    text-transform: uppercase;
+}
+
+.contactInfo {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #346856;
+}
+
+a:hover {
+    color: #88C070;
+    text-decoration: underline;
+}
+
+a[href^="http"] {
+    position: relative; /* this is so we can get the external link icon on hover w/o moving position */
+}
+
+a[href^="http"]:hover::after {
+    content: "";
+    width: .5em;
+    height: .5em;
+    background: url('assets/external-link-symbol.svg') center center no-repeat;
+    background-size: cover;
+    position: absolute;
+    display: inline-block;
+    top: 0;
+    right: -.5em;
+}
+
+/* add this class to the BODY element when modal is active to disable scrolling */
+.bodyActiveModal {
+    overflow: hidden;
+}
+
+.infoModal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 100;
+    opacity: 0;
+    transition: opacity 3s ease-in;
+}
+
+.infoModal.visible {
+    display: flex;
+    opacity: 1;
+}
+
+.infoModal #modalBackground {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.infoModal #modalWindow {
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: #E0F8D0;
+    box-sizing: border-box;
+    margin: auto;
+    max-height: 90vh;
+    width: 80vw;
+    max-width: 80rem;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
+}
+
+.infoModal.visible #modalWindow {
+    animation: slideDown .3s ease-in-out forwards;
+}
+
+.infoModal #modalHeader {
+    padding: 0 2em 0 1.3em;
+    background-color: #88C070;
+}
+
+.infoModal #closeBtn {
+    position: absolute;
+    z-index: 101;
+    top: .5em;
+    right: .5em;
+    width: 1em;
+    height: 1em;
+    background: url('assets/cancel.svg') center center no-repeat;
+    background-size: cover;
+    filter: brightness(0);
+    transition: filter .15s ease-in;
+}
+
+.infoModal #closeBtn:hover {
+    filter: brightness(0) saturate(100%) invert(93%) sepia(28%) saturate(309%) hue-rotate(39deg) brightness(100%) contrast(94%);
+}
+
+.infoModal #modalBody {
+    overflow: auto;
+    padding: 1em 2em 2em 2em;
+}
+
+.infoModal #modalBody p {
+    padding: 0 .25em 0 .5em;
+}
+
+.infoModal #embedVideoContainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    position: relative;
+}
+
+.infoModal #embedVideoContainer.loading::after {
+    content: "";
+    width: 5em;
+    height: 5em;
+    background: url('assets/spinner-of-dots.svg') center center no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -2.5em;
+    margin-top: -2.5em;
+    transform-origin: center;
+    animation: rotateClockwise 3s infinite linear;
+}
+
+.infoModal #embedVideoContainer iframe {
+    border: 0;
+    width: 15em;
+    height: 10em;
+    margin: .25em;
+}
+
+.infoModal #embedVideoContainer.loading iframe {
+    visibility: hidden;
+}
+
+/**************************************************************************************************
+    Small Screens
+**************************************************************************************************/
+@media only screen and (max-width: 950px) {
+    h1 {
+        font-size: 1.7em;
+    }
+    
+    h2 {
+        font-size: 1.5em;
+    }
+    
+    h3 {
+        font-size: 1.2em;
+    }
+
+    body {
+        font-size:21px;
+    }
+
+    /* get nav bar to stack vertically on small width viewports */
+    .navBar ul {
+        flex-direction: column;
+    }
+
+    .navBar li {
+        margin: 0;
+        text-align: left;;
+    }
+
+    .navBar .fixedHeader {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+    }
+
+    .navBar .fixedHeader a {
+        display: inline;
+        font-size: 2.5rem;
+        text-transform: none;
+    }
+
+    .expandToggle {
+        display: inline-block;
+        width: 2rem;
+        height: 2rem;
+        box-sizing: border-box;
+        margin: 0 .75em;
+        padding: 0;
+    }
+    
+    .expandToggle input[type=checkbox] {
+        display: none;
+    }
+    
+    .expandToggle .toggleIcon {
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .expandToggle input[type=checkbox]:checked + .toggleIcon::after{
+        content: "";
+        width: 100%;
+        height: 100%;
+        background: url('assets/cancel.svg') center center no-repeat;
+        filter: brightness(0);
+        background-size: 100%;
+        position: absolute;
+        display: inline-block;
+        top: 0;
+        left: 0;
+    }
+    
+    .expandToggle input[type=checkbox]:not(:checked) + .toggleIcon::after{
+        content: "";
+        width: 100%;
+        height: 100%;
+        background: url('assets/order.svg') center center no-repeat;
+        background-size: 100%;
+        position: absolute;
+        display: inline-block;
+        top: 0;
+        left: 0;
+    }
+
+    .navSection {
+        padding: 3.5em 1em 1em 1em;
+    }
+
+    .navBarItems {
+        overflow: hidden;
+        transition: height 0.3s ease-out;
+        height: 0;
+    }
+
+    .navBarItems.expanded {
+        height: auto;
+    }
+
+    .infoModal #modalWindow {
+        width: 90vw;
+    }
+
+    .infoModal #modalBody {
+        padding: .5em;
+    }
+
+    .infoModal #modalHeader {
+        font-size: 1.5rem;
+        padding: .25em 2em .25em .22em;
+    }
+
+    .infoModal h2 {
+        font-size: 1em;
+    }
+}
+
+/**************************************************************************************************
+    Large Screens
+**************************************************************************************************/
+@media only screen and (min-width:950px) {
+    .sideNavContainer {
+        padding-left: 20vw;
+        height: 100vh;
+    }
+
+    .navBar.sideNav {
+        width: 20vw;
+        height: 100vh;
+        left: 0;
+    }
+
+    .navBar.sideNav li {
+        margin: 0;
+    }
+    
+    .navBar.sideNav a {
+        padding: .5em;
+    }
+
+    /* don't show fixed header if full screen */
+    .navBar.sideNav .fixedHeader {
+        display: none;
+    }
+}
+
+
+
+/**************************************************************************************************
+    Animations
+**************************************************************************************************/
+@keyframes slideDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes rotateClockwise {
+    0% {
+        transform: rotate(0);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

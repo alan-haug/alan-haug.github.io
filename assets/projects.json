@@ -1,0 +1,317 @@
+{
+    "legends":
+    {
+        "title": "The Elder Scrolls®: Legends™",
+        "description": "A multiplayer competitive card game based in The Elder Scrolls® universe, available on mobile and desktop platforms. Developed by Sparkypants Studios and published by Behtesda Softworks, it features a robust tutorial campaign (along with multiple independent story campaigns), unique modes for single and versus play, as well as competitive ranked play.",
+        "embedVideos": 
+        [
+            "https://www.youtube.com/embed/RlKDNzwYoSE?version=3&amp;rel=0&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent"
+        ],
+        "externalLinks":
+        [
+            {
+                "text": "Official Website",
+                "url": "https://legends.bethesda.net/en"
+            },
+            {
+                "text": "Steam® Page",
+                "url": "https://store.steampowered.com/app/364470/The_Elder_Scrolls_Legends/"
+            }
+        ],
+        "role": "UI Programmer, miscellaneous client-side and tools programming",
+        "tools": 
+        [
+            "Unity Game Engine"
+        ],
+        "tasks": 
+        [
+            "Led the technical design and implementation of single-player story content.",
+            "Led the technical design and implementation of tutorial systems, both in and out of card matches.",
+            "Implemented player card collection and deck builder, became product owner.",
+            "Worked with design and audio team on various tools in Unity for features such as: tutorial content, story content, in-match character dialogue, branching story choices, in-game cinematics.",
+            "Extensive work with Unity's built-in UI layout system.",
+            "Worked closely with game designers, UI designers, artists, product, and technical leads on all of the above tasks."
+        ]
+    },
+    "dropzone":
+    {
+        "title": "Dropzone",
+        "description": "A hybrid-genre game featuring the strategic requirements and micromanagement possibilities of an RTS with the quick and competitive action found in MOBAs. Dropzone supports single player modes but thrives in its multiplayer offerings allowing 1v1, 2v2, 3v3, and other team-based competitive play. Players compete for points in 15-minute matches controlling 1-3 customizable rigs while fighting off AI-controlled alien enemeis.",
+        "embedVideos": 
+        [
+            "https://www.youtube.com/embed/93DwlFBI-M0?version=3&amp;rel=0&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent"
+        ],
+        "externalLinks":
+        [
+            {
+                "text": "Official Website",
+                "url": "https://www.sparkypants.com/dropzone/"
+            },
+            {
+                "text" : "Steam® Page",
+                "url": "https://store.steampowered.com/app/572520/Dropzone/"
+            }
+        ],
+        "role": "UI Programmer, miscelaneous client-side and tools programming, some minor backend programming",
+        "tools": 
+        [
+            "Sparkle Engine: the in-house custom C++ engine of Sparkypants Studios",
+            "Coherent UI: framework for implementing UI features in HTML/CSS/JS"
+        ],
+        "tasks":
+        [
+            "Led work with one of our game designers on the build pipeline for collecting stats on in-game equipment for display in various menus.",
+            "Spent some time working with our backend team on account transfers and in-game purchasing.",
+            "Heavily modified our custom engine code to work on various prototype iterations.",
+            "Led the technical design and implementation of tutorial systems and onboarding UX.",
+            "Took part in daily playtest sessions across the studio with rapid iteration and feature testing between sessions.",
+            "Worked closely with game designers, UI designers, artists, product, and technical leads on all of the above tasks."
+        ]
+    },
+    "kitten-rescue": 
+    {
+        "title": "Kitten Rescue",
+        "description": "A quick and fun game for Android; the player gets points by saving kittens from fire within the given time limit. When two fingers are touching the screen, a pair of firefighters show up with a stretched trampoline which is used to bounce the kittens to safety (a cherry picker basket or firefighters with nets). When one finger is touching the screen, a fire hose sprays water to put out small flames which increases the amount of available safety zones for a short time. If the player is able to keep their rescue rate above the cutoff limit during the time window, they progress to the next round where the difficulty increaseses. The game features a high score list, intruductory tutorial, configurable sound, vibration, and control options, and the ability to share impressions and scores on Twitter and Facebook.",            
+        "embedVideos": 
+        [
+            "https://www.youtube.com/embed/n9H7I6g2XFU?version=3&amp;rel=0&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent"
+        ],
+        "externalLinks" :
+        [
+            {
+                "text": "Google Play Store",
+                "url": "https://play.google.com/store/apps/details?id=com.opawesomeapps.kittenrescue"
+            }
+        ],
+        "role": "Solo Developer: programming, design, art, sound FX",
+        "tools" : 
+        [
+            "Unity Game Engine",
+            "Android Studio, Java (for Android plugins in Unity)",
+            "GIMP 2.6, Inkscape (for art and fonts)"
+        ],
+        "tasks" : 
+        [
+            "Integrated Facebook Unity SDK for sharing on Facebook.",
+            "Integrated Let’s Tweet Unity package from asset store for sharing on Twitter.",
+            "Developed Android plugins for Unity to play audio with reduced latency, launch custom Activities to handle in-app purchases, share info across the Android OS, hide navigation bars for a truly fullscreen experience, utilize system vibrator for gameplay feedback.",
+            "Expand knowledge by implementing all GUI features with the new GUI tools packaged with Unity 4.6.",
+            "All art was created with the GNU Image Manipulation Program (GIMP) and organized into sprite sheets and texture atlases for mobile optimization.",
+            "Organized playtest session with Google survey."
+        ]
+    },
+    "song-of-the-planets":
+    {
+        "title": "Song of the Planets (Prototype)",
+        "description": "My hope is to turn this into a fun, relaxing and abstract way to teach western music scales and chords to people. The idea is simple: connect different colored circles (planets) together which causes them to get pulled toward one another; once they collide, their notes are played together. So far I have just toyed around with all these bouncy balls connected with spring joints and the sounds they come up with. In the future I plan on having different objectives like, “Create a C major chord without using any red planets” and such. Also, it would be really cool to have planets orbiting others, to represent what chords are considered to have consonance or dissonance relatively. And anything with space is easily more awesome with black holes, so I have to figure out a way to work those in.",
+        "embedVideos": 
+        [
+            "https://www.youtube.com/embed/P4eKH5VlSN0?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent",
+            "https://www.youtube.com/embed/eEpGHmjckds?version=3&amp;rel=0&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent"
+        ],
+        "externalLinks": [],
+        "role": "Solo Developer: programming, design, art, music",
+        "tools": 
+        [
+            "Unity Game Engine"
+        ],
+        "tasks": []
+    },
+    "tickle-ninja":
+    {
+        "title": "Tickle Ninja (Ludum Dare 32)",
+        "description": "Ludum Dare is a recurring game jam where a theme is announced and the participants have usually 48 to 72 hours from the time of the announcement to complete a playable game based on the theme. This instance’s theme was “unconventional weapon”. After toying with the idea of abstract psychological “weapons” I decided to go with a tight-control solid platformer inspired by Mega Man X. The game ended up being a lot shorter than I wanted since I spent a fair amount of time working on the enemy AI which left little for the level design. If and when I come back to this project, I would like be tighten up some of the controls and AI a bit more and shell out a very thoughtful and fun demo level.",
+        "embedVideos": 
+        [
+            "https://www.youtube.com/embed/tSs1pHXXfaE?version=3&rel=0&fs=1&autohide=2&showsearch=0&showinfo=1&iv_load_policy=1&wmode=transparent"
+        ],
+        "externalLinks":
+        [
+            {
+                "text": "Play/Download it here",
+                "url": "http://ludumdare.com/compo/ludum-dare-32/?action=preview&uid=51500"
+            }
+        ],
+        "role": "Solo Developer",
+        "tools": 
+        [
+            "Unity Game Engine",
+            "Gimp 2.6"
+        ],
+        "tasks": 
+        [
+            "Entire projet done within 72 hrs of first hearing the prompt: initial concept, brainstorming, prototyping, development, bug fixing, etc.",
+            "Got more comfortable with bone/hierarchical based animation for 2D humanoid characters using Unity’s animation system.",
+            "Enemy AI system utilizing line-of-sight probes and finite state machines."
+        ]
+    },
+    "fbgb":
+    {
+        "title": "Flappy Bird for Game Boy",
+        "description": "I  made my own version of the popular phone game Flappy Bird for the original Nintendo Game Boy. The game was written in C using GBDK(Game Boy development kit). It can run on actual Game Boy hardware or any supporting emulator.",
+        "embedVideos": 
+        [
+            "https://www.youtube.com/embed/L1arYXOawP8?version=3&rel=1&fs=1&autohide=2&showsearch=0&showinfo=1&iv_load_policy=1&wmode=transparent"
+        ],
+        "externalLinks":
+        [
+            {
+                "text": "Featured on Retro Collect",
+                "url": "http://www.retrocollect.com/News/touchscreen-sensation-flappy-bird-soars-onto-nintendo-game-boy.html"
+            },
+            {
+                "text": "Featured on pscd.ru",
+                "url": "http://pscd.ru/news/2694-novaya-igra-flappy-bird-dlya-game-boy.html"
+            }
+        ],
+        "role": "Solo Developer",
+        "tools": 
+        [
+            "GBDK (Game Boy Development Kit)",
+            "Gameboy Tile Designer"
+        ],
+        "tasks": []
+    },
+    "fussball":
+    {
+        "title": "Fussball  (Prototype)",
+        "description": "I had a lot of fun playing Kung Foot from Rayman Legends while visiting some friends during the Holidays and I thought to myself, “It would be awesome if we could play this together online!”. So I started this prototype. It was a good exercise in learning networking and various ways to implement online play in the Unity Game Engine. My last work on it was adjusting the player movement so the physics would play nice over the network. I look forward to getting it to a playable state so I can enjoy it with my friends in other cities.",
+        "embedVideos": 
+        [
+            "https://www.youtube.com/embed/6hHYr_X6QNY?version=3&rel=0&fs=1&autohide=2&showsearch=0&showinfo=1&iv_load_policy=1&wmode=transparent"
+        ],
+        "externalLinks": [],
+        "role": "",
+        "tools":
+        [
+            "Unity Game Engine"
+        ],
+        "tasks": []
+    },
+    "musical-terrain":
+    {
+        "title": "Musical Terrain (Prototype)",
+        "description": "This was inspired by Synesthesia and a description of Zen I heard about a ball rolling down a river. It was made in Unity and gave me a good chance to learn about the audio pitch settings available in the Unity sound api. At its current state, there is no objective. In the future I still don’t know if it will have an objective; all I know is that I want it to be a beautiful experience that allows for unique exploration and creation in both the visual and auditory fields.",
+        "embedVideos": 
+        [
+            "https://www.youtube.com/embed/O6Gu5YC8OTU?version=3&rel=0&fs=1&autohide=2&showsearch=0&showinfo=1&iv_load_policy=1&wmode=transparent"
+        ],
+        "externalLinks": [],
+        "role": "",
+        "tools": 
+        [
+            "Unity Game Engine"
+        ],
+        "tasks": []
+    },
+    "forest-quest":
+    {
+        "title": "Forest Quest",
+        "description": "Codename “Damsel In Distress”, this game was commissioned for use in an experiment with the psychology department of UC Santa Cruz. It was designed to measure how interactive media (video games) could affect the player’s view on female agency and other forms of sexism. The player takes the role of a young man jumping up branches on a tree racing an angry bear to the top. The bear can throw pine cones at the player to slow him down. The player collects pine cones on the branches and throws them at the bear to gain points. Depending on which game mode the test subject got to play, the player’s goal one of the following: get a basket of fruit to absolve your hunger before the bear does; get to a helpless young woman who is stuck at the top and afraid of the bear; get to a helpless young woman, same as the last, except this one has a more sexualized appearance.",
+        "embedVideos": 
+        [
+            "https://www.youtube.com/embed/-UKvmGFkpbg?version=3&rel=0&fs=1&autohide=2&showsearch=0&showinfo=1&iv_load_policy=1&wmode=transparent"
+        ],
+        "externalLinks": [],
+        "role": "Team Lead, Designer, Programmer",
+        "tools": 
+        [
+            "Unity Game Engine"
+        ],
+        "tasks": 
+        [
+            "Maintain communication between researchers and the development team (one other programmer and one artist working remotely).",
+            "Meeting deadlines to present current state of game to researchers and adjusting gameplay and graphics depending on feedback.",
+            "Planning and organizing meetings with the other programmer/designer and keeping steady flow of incoming art assets through email with the artist.",
+            "Implementing sprite sheet based animation system in Unity 3D (this project was before Unity released official support for 2D games in 4.3).",
+            "Designing, implementing, and refining inifinite branch platform system; required variation for interesting gameplay but also systematic distance organization so the player could always have a path upward.",
+            "Sound effects: some were recorded by me, others were found and adjusted from free collections online.",
+            "Player controls and physics.",
+            "Player incentive system (see little thoght bubble above player in gameplay) and associated skill boosts.",
+            "Camera logic and movement."
+        ]
+    },
+    "hello-world":
+    {
+        "title": "Senior Project: Hello World",
+        "description": "This was a three quarter long senior game design project called Hello World. The team was 8 programmers, 2 artists and 1 musician. The game was develope for PC, Mac, and Linux. Written in c++ using SFML. I was involved in nearly all aspects of the game engine including (but not limited to) 2D physics, media resource handling, controller input, camera objects. Hello World won the grand prize at the 2012 Sammy Awards for overall excellence in game design.",
+        "embedVideos": 
+        [
+            "https://player.vimeo.com/video/43789379"
+        ],
+        "externalLinks": 
+        [
+            {
+                "text": "Official Website",
+                "url": "http://www.helloworldgame.com/"
+            }
+        ],
+        "role": "Programmer, Designer, Periodic Scrum Master",
+        "tools": 
+        [
+            "SFML (C++ Simple and Fast Media Library)"
+        ],
+        "tasks": []
+    },
+    "daedalus":
+    {
+        "title": "Daedalus (Kinect)",
+        "description": "I worked on Daedalus for about 4 weeks with a partner. We developed it using the Unity Game Engine and did the scripting in C#. I contributed to the game design including: level design, player controls, physics, visuals, and particle effects. I also recorded all the audio except for the music and implemented their presence in the game.",
+        "embedVideos": 
+        [
+            "https://www.youtube.com/embed/7c4G_iPDo_M?version=3&rel=0&fs=1&autohide=2&showsearch=0&showinfo=1&iv_load_policy=1&wmode=transparent"
+        ],
+        "externalLinks": [],
+        "role": "Programmer & Designer in team of 3",
+        "tools": 
+        [
+            "Unity Game Engine"
+        ],
+        "tasks": []
+    },
+    "xylofun":
+    {
+        "title": "Xylofun (Kinect)",
+        "description": "Xylofun is a children’s play-along music game developed in XNA and C#. It utilizes the Kinect’s skeleton tracking so that the user may swing his/her arms in gestures similar to a real-life xylophone player. I only worked on it for a couple weeks during a busy school schedule, so I would really like to further develop it into a more complete game experience. I created a file loader to recognize custom song text files which contain scale, note, time, and name data of the song.",
+        "embedVideos": 
+        [
+            "https://www.youtube.com/embed/XgALUAgR0WU?version=3&rel=0&fs=1&autohide=2&showsearch=0&showinfo=1&iv_load_policy=1&wmode=transparent"
+        ],
+        "externalLinks": [],
+        "role": "Solo Developer",
+        "tools": 
+        [
+            "Microsoft XNA"
+        ],
+        "tasks": []
+    },
+    "mini-golf":
+    {
+        "title": "Psychedelic Mini Golf",
+        "description": "I created this game during Spring quarter 2011 in a game engines class. It was made with c++ and OpenGL, using GLSL for some shader effects. It features 18 holes of play with capabilities for loading levels from a file as well as saved games and high scores.",
+        "embedVideos": 
+        [
+            "https://www.youtube.com/embed/-mvgIO-BVu4?version=3&rel=0&fs=1&autohide=2&showsearch=0&showinfo=1&iv_load_policy=1&wmode=transparent"
+        ],
+        "externalLinks": [],
+        "role": "",
+        "tool": [],
+        "tasks": []
+    },
+    "block-hop":
+    {
+        "title": "Block Hop!",
+        "description": "This is the first game I made while studying game design at college, it’s a bit embarrassing, but more importantly it demonstrates the progress I have made. It was made with a partner using GameMaker in Winter 2008. I was responsible for coming up with the game idea and majority of gameplay, 90% of the art, 100% of the music, and shared equal duties putting the game together.",
+        "embedVideos": 
+        [
+            "https://www.youtube.com/embed/5SnKxkONO-g?version=3&rel=0&fs=1&autohide=2&showsearch=0&showinfo=1&iv_load_policy=1&wmode=transparent"
+        ],
+        "externalLinks": [],
+        "role": "",
+        "tools": 
+        [
+            "GameMaker"
+        ],
+        "tasks": []
+    }
+}
