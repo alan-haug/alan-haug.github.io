@@ -88,6 +88,7 @@ h1, h2, h3, p, div, span, body {
     padding: .4em;
     transition: color .4s;
     transition: background-color .4s;
+    font-size: 1.7rem;
 }
 
 .navBar :not(.fixedHeader) a:hover{
@@ -131,6 +132,12 @@ h1, h2, h3, p, div, span, body {
 
 .contactInfo {
     text-align: center;
+}
+
+.downloadIcon {
+    width: 1em;
+    height: 1em;
+    margin: 0 0 0 .2em;
 }
 
 a {
@@ -287,7 +294,7 @@ a[href^="http"]:hover::after {
     }
 
     body {
-        font-size:21px;
+        font-size:18px;
     }
 
     /* get nav bar to stack vertically on small width viewports */
@@ -358,7 +365,7 @@ a[href^="http"]:hover::after {
     }
 
     .navSection {
-        padding: 3.5em 1em 1em 1em;
+        padding: 5.5rem 1em 1em 1em;
     }
 
     .navBarItems {
