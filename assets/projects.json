@@ -1,4 +1,39 @@
 {
+    "storyloom":
+    {
+        "title": "StoryLoom",
+        "description": "",
+        "embedVideos": 
+        [
+            "https://www.youtube.com/embed/AQ5n3WHCqAE?version=3&amp;rel=0&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent"
+        ],
+        "externalLinks":
+        [
+            {
+                "text": "Official Website (Shutdown)",
+                "url": "https://storyloom.com/"
+            },
+            {
+                "text": "Studio Blog Update on StoryLoom closure",
+                "url": "https://www.pixelberrystudios.com/blog/2024/1/19/2024-studio-updates"
+            }
+        ],
+        "role": "Tech Lead, numerous contributions to game client, CI/CD, QA, and tools",
+        "tools": 
+        [
+            "Unity Game Engine",
+            "Xcode",
+            "Chrome Debugger"
+        ],
+        "tasks": 
+        [
+            "Senior Software engineer transitioned into Tech Lead role for the Unity Client.",
+            "Ownership of client foundational systems (UI Navigation, asset management, live debug tools, and more) and CI/CD.",
+            "Mentored engineers through techincal specification and architectural document reviews, code reveiws, pair programming, and more.",
+            "Extensive work in Unity around custom packages and automated testing to aid team productivity.",
+            "Regularly consulted with producers, product owners, testers, and across multiple teams to help lead an informed direction for product's technical roadmap."
+        ]
+    },
     "legends":
     {
         "title": "The Elder Scrolls®: Legends™",
